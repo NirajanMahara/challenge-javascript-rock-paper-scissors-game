@@ -72,3 +72,23 @@ HTML elements
   font-size: 50px;
   font-family: 'Barlow', sans-serif;
 }
+
+.hands {
+  width: 500px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  background-image: url('../assets/triangle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hands .paper {
+  margin-right: 20px;
+}
+
+.hands .scissors {
+  margin-left: 20px;
+}
