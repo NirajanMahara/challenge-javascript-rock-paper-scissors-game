@@ -72,8 +72,12 @@ const referee = (userHand, cpHand) => {
 
 const setDecision = (decision) => {
   console.warn('🎮', decision);
+
+  document.querySelector('.decision h1').innerText = decision;
 };
 
 const setScore = (newScore) => {
   console.log('🎯', newScore);
+
+  document.querySelector('.score h1').innerText = newScore;
 };
