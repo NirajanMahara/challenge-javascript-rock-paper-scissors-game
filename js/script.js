@@ -28,4 +28,7 @@ const pickComputerHand = () => {
   let cpHand = hands[Math.floor(Math.random() * hands.length)];
 
   console.log(cpHand);
+
+  // set computer pick image
+  document.getElementById('computerPickImage').src = handOptions[cpHand];
 };
