@@ -101,3 +101,57 @@ HTML elements
 .hands .hand:hover {
   transform: translate3d(0px, -8px, 0px);
 }
+
+.contest {
+  width: 900px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.contest img {
+  width: 275px;
+  height: 275px;
+}
+
+.contest > div {
+  flex: 1;
+}
+
+.contest h1 {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contest .handImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.referee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.referee h1 {
+  color: orange;
+  font-size: 50px;
+}
+
+.contest .referee .newGame {
+  background-color: white;
+  color: rgb(101, 101, 101);
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.newGame:hover {
+  background-color: rgb(222, 222, 222);
+  transform: translate3d(0px, 3px, 0px);
+}
