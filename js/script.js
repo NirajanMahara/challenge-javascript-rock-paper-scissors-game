@@ -79,6 +79,7 @@ const setDecision = (decision) => {
 const setScore = (newScore) => {
   console.log('🎯', newScore);
 
+  SCORE = newScore;
   document.querySelector('.score h1').innerText = newScore;
 };
 
