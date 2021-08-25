@@ -8,7 +8,7 @@ const handOptions = {
 let SCORE = 0;
 
 const pickUserHand = (hand) => {
-  console.log(hand);
+  console.log('👨‍🎓', hand);
 
   // hide the current page
   let hands = document.querySelector('.hands');
@@ -29,7 +29,7 @@ const pickComputerHand = (hand) => {
 
   let cpHand = hands[Math.floor(Math.random() * hands.length)];
 
-  console.log(cpHand);
+  console.log('💻', cpHand);
 
   // set computer pick image
   document.getElementById('computerPickImage').src = handOptions[cpHand];
@@ -71,9 +71,9 @@ const referee = (userHand, cpHand) => {
 };
 
 const setDecision = (decision) => {
-  console.warn(decision);
+  console.warn('🎮', decision);
 };
 
 const setScore = (newScore) => {
-  console.log(newScore);
+  console.log('🎯', newScore);
 };
