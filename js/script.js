@@ -81,3 +81,13 @@ const setScore = (newScore) => {
 
   document.querySelector('.score h1').innerText = newScore;
 };
+
+const restartGame = () => {
+  // hide the current page
+  let contest = document.querySelector('.contest');
+  contest.style.display = 'none';
+
+  // show the next page with the hand
+  let hands = document.querySelector('.hands');
+  hands.style.display = 'flex';
+};
