@@ -25,5 +25,7 @@ const pickUserHand = (hand) => {
 const pickComputerHand = () => {
   let hands = ['rock', 'paper', 'scissors'];
 
-  console.log(hands[1]);
+  let cpHand = hands[Math.floor(Math.random() * hands.length)];
+
+  console.log(cpHand);
 };
