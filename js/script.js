@@ -18,4 +18,12 @@ const pickUserHand = (hand) => {
 
   // set user pick image
   document.getElementById('userPickImage').src = handOptions[hand];
+
+  pickComputerHand(hand);
+};
+
+const pickComputerHand = () => {
+  let hands = ['rock', 'paper', 'scissors'];
+
+  console.log(hands[1]);
 };
